@@ -413,8 +413,9 @@ a.btn-outline {
 }
 
 .hero.blog {
-  background-image: url(./img/home/blog.jpg) no-repeat center center/cover !important;
+  background-image: url("./img/home/blog.jpg") no-repeat center center/cover !important;
   height: 30vh;
+  position: relative;
 }
 
 .hero {
