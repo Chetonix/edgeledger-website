@@ -96,3 +96,46 @@ h1, h2 {
 #header * {
     z-index: 10;
 }
+
+#showcase .btn {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #28a745;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Info Section */
+
+#info {
+    height: 50vh;
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    color: #333;
+}
+
+.info-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.icon {
+    background-color: #28a745;
+    color: #fff;
+    padding: 1rem;
+    border-radius: 50%;
+    /* margin-bottom: 15px; */
+}
+
+.info-item p {
+    line-height: 1.6;
+    padding: 0 25px;
+}
