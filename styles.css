@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 body {
@@ -185,4 +185,38 @@ a.btn-outline {
   border: 1px solid white;
   padding: 10px 30px;
   cursor: pointer;
+}
+
+/* Business Section */
+.business-info {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100%;
+  padding: 20px 0px;
+  color: #333;
+}
+
+.business-info h2 {
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 1.2;
+}
+
+/* Business Info Images Grid */
+
+.business-images {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 4px;
+}
+
+.business-images img {
+  width: 100%;
+  object-fit: cover;
 }
