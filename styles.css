@@ -305,3 +305,55 @@ a.btn-outline {
 .img-col p {
   margin: 10px 0px;
 }
+
+/* Callback Contact Form */
+
+#callback {
+  display: flex;
+  flex-direction: row;
+}
+
+.callback-img {
+  flex: 1;
+}
+
+.callback-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.callback-form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  gap: 30px;
+  background-color: #f4f4f4;
+}
+
+.callback-form > * {
+  width: 100%;
+}
+
+.callback-form input {
+  width: 100%;
+  padding: 4px;
+  height: 40px;
+  border: #f5f5f5 1px solid;
+}
+
+.callback-form .btn {
+  background-color: #28a745;
+  padding: 12px;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+}
+
+.callback-form h2 {
+  font-size: 40px;
+  font-weight: 100;
+}
