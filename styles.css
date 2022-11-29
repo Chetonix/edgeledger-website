@@ -319,7 +319,7 @@ a.btn-outline {
 
 .callback-img img {
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .callback-form {
@@ -356,4 +356,37 @@ a.btn-outline {
 .callback-form h2 {
   font-size: 40px;
   font-weight: 100;
+}
+
+/* Footer Section */
+
+.bg-dark {
+  background-color: #333;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+.social a {
+  text-decoration: none;
+  color: #fff;
+}
+.social a i {
+  padding: 50px 20px 0px;
+}
+
+.fab {
+  font-weight: 400;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.footer p {
+  color: #fff;
+  text-align: center;
+  padding-top: 7px;
+  padding-bottom: 50px;
 }
