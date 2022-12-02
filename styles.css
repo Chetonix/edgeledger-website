@@ -402,6 +402,28 @@ a.btn-outline {
 
 /* Blog HTML Page */
 
+.hero.blog {
+  background: url("./img/home/blog.jpg") no-repeat center center/cover !important;
+  height: 30vh;
+  position: relative;
+}
+
+.hero .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+}
+
+.hero .content h1 {
+  font-size: 55px;
+  color: #fff;
+  font-weight: 300;
+}
+
 .hero::before {
   content: "";
   position: absolute;
@@ -409,27 +431,13 @@ a.btn-outline {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
 }
 
-.hero.blog {
-  background-image: url("./img/home/blog.jpg") no-repeat center center/cover !important;
-  height: 30vh;
-  position: relative;
+.hero * {
+  z-index: 10;
 }
 
-.hero {
-  position: relative;
-  color: #fff;
-  width: 100%;
-  height: 30vh;
-}
-
-.content h1 {
-  color: #fff;
-  z-index: 999;
-}
-
-.content {
-  height: 100%;
+.hero #navbar {
+  background: transparent;
 }
