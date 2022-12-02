@@ -605,6 +605,7 @@ a.btn-outline {
     height: 100%;
   }
   .content-right {
+    margin-top: 20px;
     margin-bottom: 20px;
   }
 }
