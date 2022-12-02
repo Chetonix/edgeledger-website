@@ -591,4 +591,16 @@ a.btn-outline {
     flex-direction: column;
     height: 100%;
   }
+
+  /* Blog HTML Page */
+
+  #blog-1,
+  #blog-2,
+  #blog-3 {
+    flex-direction: column;
+    height: 100%;
+  }
+  .content-right {
+    margin-bottom: 20px;
+  }
 }
