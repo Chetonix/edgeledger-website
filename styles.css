@@ -539,3 +539,56 @@ a.btn-outline {
   display: block;
   margin: 0 auto 30px;
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+  #navbar {
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    padding: 20px;
+  }
+
+  #navbar a {
+    padding: 10px 10px;
+    margin: 0 3px;
+  }
+
+  #info {
+    flex-direction: column;
+    height: 100%;
+  }
+
+  #work {
+    flex-direction: column;
+    height: 100%;
+    gap: 0px;
+    padding: 0px;
+  }
+
+  .business-images {
+    grid-template-columns: 1fr;
+    padding: 0 10px;
+  }
+
+  .blog-index {
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+
+  .about-images {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-images .img-col {
+    width: 70%;
+  }
+
+  .about-images img {
+    width: 100%;
+  }
+  #callback {
+    flex-direction: column;
+    height: 100%;
+  }
+}
