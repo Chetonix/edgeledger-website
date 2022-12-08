@@ -25,10 +25,10 @@
         <nav class="nav-list" id="nav">
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">About</a></li>
-            <li><a href="index.html">Cases</a></li>
-            <li><a href="index.html">Blog</a></li>
-            <li><a href="index.html">Contact</a></li>
+            <li><a href="index.html#info">About</a></li>
+            <li><a href="index.html#business">Cases</a></li>
+            <li><a href="index.html#blog">Blog</a></li>
+            <li><a href="index.html#callback">Contact</a></li>
           </ul>
         </nav>
       </navbar>
@@ -139,21 +139,21 @@
         }
       };
 
-      // Smooth Scrolling
-      $("#navbar a, .btn").on("click", function (e) {
-        if (this.hash !== "") {
-          e.preventDefault();
+      // // Smooth Scrolling
+      // $("#navbar a, .btn").on("click", function (e) {
+      //   if (this.hash !== "") {
+      //     e.preventDefault();
 
-          const hash = this.hash;
+      //     const hash = this.hash;
 
-          $("html, body").animate(
-            {
-              scrollTop: $(hash).offset().top - 100,
-            },
-            800
-          );
-        }
-      });
+      //     $("html, body").animate(
+      //       {
+      //         scrollTop: $(hash).offset().top - 100,
+      //       },
+      //       800
+      //     );
+      //   }
+      // });
     </script>
   </body>
 </html>
