@@ -53,6 +53,7 @@ img {
   transition: 0.5s;
   position: fixed;
   width: 100%;
+  transition: 0.5s;
 }
 
 .top {
