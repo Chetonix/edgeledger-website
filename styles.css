@@ -18,6 +18,10 @@ h2 {
   line-height: 1.2;
 }
 
+img {
+  width: 100%;
+}
+
 /* HEADER */
 
 #header {
@@ -36,7 +40,7 @@ h2 {
 }
 
 /* HEADER- Navbar */
-#navbar {
+.navbar {
   display: flex;
   justify-content: space-between;
   padding-top: 10px;
@@ -49,6 +53,10 @@ h2 {
   transition: 0.5s;
   position: fixed;
   width: 100%;
+}
+
+.top {
+  background: transparent;
 }
 
 #nav ul {
@@ -443,7 +451,7 @@ a.btn-outline {
 }
 
 .hero #navbar {
-  background: transparent;
+  /* background: transparent; */
 }
 
 /* Blog Post One inside Blog Page */
